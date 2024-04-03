@@ -1,0 +1,16 @@
+
+.menu{
+    display: flex;
+    width: 700px;
+    
+}
+.menu .text{
+    width: 50%;
+    background-color: blue;
+    color: white;
+    height: 40px;
+    line-height: 40px;
+}
+.menu .text:hover{
+    background-color: red;
+}

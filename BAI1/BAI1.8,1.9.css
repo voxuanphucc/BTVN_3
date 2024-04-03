@@ -1,0 +1,33 @@
+
+body, *{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    width: 200px;
+    background-color: blue; 
+}
+.menu .item{
+    text-indent: 20px;
+    border-top: 1px solid white;
+    color: white;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+  
+}
+.menu .item:hover{
+    background-color: red;
+}
+
+.item .menu2{
+    display: none;
+    width: 400px;
+}
+.menu .item:hover .menu2{
+   display: block;
+   background-color: red;
+   position: absolute;
+   top: 0px;
+   left: 200px;
+}

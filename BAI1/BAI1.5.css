@@ -1,0 +1,17 @@
+
+h3{
+    background-color: orange;
+    width: 50%;
+    height: 40px;
+    line-height: 40px;
+}
+.left{
+    text-align: left;
+}
+.color {
+    background-color: orange;
+    color: white;
+}
+table{
+    border: 1px solid orange;
+}

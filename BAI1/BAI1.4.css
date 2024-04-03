@@ -1,0 +1,49 @@
+
+.all{
+    width: 960px;
+    background-color: #FACFCF;
+    height: 600px;
+}
+
+header{
+    margin-left:50px;
+}
+header span{
+    color: purple;
+
+}
+header h1{
+    color: white;
+}
+.menu{
+    color: white;
+    display: flex;
+    background-color: #420000;
+    height: 30px;
+    line-height: 30px;
+    width: 90%;
+    margin-top: -17px;
+}
+.menu .contact{
+    width: 90%;
+}
+.sidebar{
+    color: white;
+    margin-left: 50px;
+    margin-top: 5px;
+    background-color: #9D6F68;
+    width: 204px;
+    height: 400px;
+   
+}
+.content{
+    width: 35%;
+    position: absolute;
+    top: 100px;
+    right: 730px;
+}
+.footer{
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+}

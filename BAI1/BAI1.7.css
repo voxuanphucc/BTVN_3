@@ -1,0 +1,56 @@
+
+body, *{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    display: flex;
+    width: 100%;
+}
+.menu .item{
+    background-color: blue;
+    width: 25%;
+    height: 30px;
+    line-height: 30px;
+    border-left: 1px solid white;
+    color: white;
+    position: relative;
+}
+
+.menu .item:first-child{
+    border-left: none;
+}
+
+.menu2 .item2{
+    background-color: blue;
+    border-top: 1px solid white;
+    width: 100%;
+    text-align: center;
+}
+.menu .item:hover{
+    background-color: red;
+}
+
+.menu .item:hover .item2{
+    background-color: red;
+}
+.item .menu2{
+    display: none;
+}
+
+ .menu .item:hover .menu2{
+   display: flex;
+    
+ }
+ .menu .menu2{
+    width: 400px;
+    position: absolute;
+    left: -100%;
+ }
+
+ 
+  
+ 
+    
+ 
