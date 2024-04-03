@@ -1,0 +1,111 @@
+body,*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #24e98d;
+    height: 300px;
+    border-bottom-left-radius: 50%;
+    display: flex;
+}
+
+.header .hello{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 20px;
+
+}
+.header .contact{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    gap: 20px;
+    padding-right: 150px;
+     
+}
+
+.header .contact i{
+    font-size: 50px;
+}
+
+.information{
+    height: 100px;
+    line-height: 100px;
+    background-color: #447097;
+    margin-block: 20px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+ .education{
+    width: 60%;
+    
+}
+/* .education */
+ .title{
+    background-color: orange;
+    padding: 16px;
+    color: white;
+}
+.education .list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.education .list .item{
+    width: 30%;
+    background-color: cyan;
+    margin-top: 10px;
+   
+
+}
+
+.education .list .item img{
+    width: 100%;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.blog{
+    height: 300px;
+    width: 30%;
+   
+}
+
+.status{
+    display: flex;
+    align-items: center;
+    border: 2px solid orange;
+    padding: 16px;
+    margin-top: 10px;
+}
+
+.status .circle{
+    width: 50px;
+    height: 50px;
+    background-color: cyan;
+    border-radius: 50%;
+}
+
+.footer{
+    background-color: black;
+    margin-top: 20px;
+    height: 100px;
+    line-height: 100px;
+    color: white;
+    text-align: center;
+
+}
