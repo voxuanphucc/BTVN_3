@@ -1,4 +1,8 @@
 
+/* body,*{
+    margin: 0;
+    padding: 0;
+} */
 .all{
     width: 960px;
     background-color: #FACFCF;
@@ -24,9 +28,11 @@ header h1{
     width: 90%;
     margin-top: -17px;
 }
+
 .menu .contact{
-    width: 90%;
+    flex: 1;
 }
+
 .sidebar{
     color: white;
     margin-left: 50px;
@@ -42,6 +48,7 @@ header h1{
     top: 100px;
     right: 730px;
 }
+
 .footer{
     text-align: center;
     margin-top: 40px;
