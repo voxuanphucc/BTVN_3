@@ -44,7 +44,7 @@ body, *{
     
  }
  .menu .menu2{
-    width: 400px;
+    width: 300%;
     position: absolute;
     left: -100%;
  }

@@ -7,6 +7,7 @@ body, *{
     display: flex;
     width: 100%;
     text-align: center;
+    z-index: 1;
     
 }
 
@@ -16,6 +17,7 @@ body, *{
     height: 50px;
     line-height: 50px;
     font-size: 20px;
+    
     
 }
 .menu .item:hover{
@@ -32,25 +34,20 @@ body, *{
     border-bottom-left-radius: 40%;
 }
 
-
 .products{
    margin-top: 20px;
-   margin-left: 50px;
    position: relative;
-   width: 100%;
+   width: 300px;
+   text-align: center;
+   box-shadow: 2px 2px 10px black;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   overflow: hidden;  
    
 }
 
-.list_products .products{
-    width: 300px;
-    text-align: center;
-    box-shadow: 2px 2px 10px black;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    overflow: hidden;
-    
- 
-}
+
+
 .products p{
     color: red;
 }
@@ -78,12 +75,13 @@ body, *{
     display: flex;
     flex-wrap: wrap;
     margin-top: -20px;
-   
-    
+    justify-content: center;
+    gap: 20px;  
 }
 .footer{
     margin-left: 20px;
 }
 .color{
     background-color: yellow;
+    
 }

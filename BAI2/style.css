@@ -39,21 +39,18 @@ h1 {
 
 /* Yêu cầu 3  */
 .two_boxes{ 
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.box3 {  
     display: inline-block;
     width: 200px;
     height: 200px;
-    background-color: red;
-    /* text-align: center; */
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    
-}
-
-
-.box3 {  
-
-    
+    background-color: red;   
 }
 /* .mid{
     text-align: center;
@@ -72,8 +69,6 @@ h1 {
     display: flex;
     justify-content: center;
 }
-
-
 
 /* Yêu cầu 5  */
 .list_products {
