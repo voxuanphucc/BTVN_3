@@ -77,8 +77,9 @@ body, *{
 .list_products{
     display: flex;
     flex-wrap: wrap;
+    margin-top: -20px;
+   
     
-
 }
 .footer{
     margin-left: 20px;
