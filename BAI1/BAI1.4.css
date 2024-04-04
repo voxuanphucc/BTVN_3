@@ -32,6 +32,7 @@ header h1{
 
 .menu .contact{
     flex: 1;
+
 }
 .sidebar{
     color: white;
@@ -44,20 +45,17 @@ header h1{
 }
 .fix{
     display: flex;
-    width: 800px;
-    
+    width: 800px;     
 }
 
-.fix .left{
-    width: 100%;
-}
 
 .fix .content{
     margin-top: 10px;
     margin-left: 10px;
     width: 80%;
-    
+       
 }
+
 .content{
     height: 18px;
     line-height: 18px;
