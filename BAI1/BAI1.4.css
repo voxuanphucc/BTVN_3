@@ -1,9 +1,7 @@
-
-
-/* body,*{
+body,*{
     margin: 0;
     padding: 0;
-} */
+}
 .all{
     width: 960px;
     background-color: #FACFCF;
@@ -12,15 +10,15 @@
 
 header{
     margin-left:50px;
+    
 }
 header span{
     color: purple;
-
 }
-
 header h1{
 
     color: white;
+    padding: 10px;
 }
 .menu{
     color: white;
@@ -35,7 +33,6 @@ header h1{
 .menu .contact{
     flex: 1;
 }
-
 .sidebar{
     color: white;
     margin-left: 50px;
@@ -59,6 +56,12 @@ header h1{
     margin-top: 10px;
     margin-left: 10px;
     width: 100%;
+ 
+}
+
+.content b{
+    height: 21px;
+    line-height: 21px;
 }
 
 .footer{
@@ -69,4 +72,8 @@ header h1{
 .left{
     height: 40px;
     line-height: 40px;
+}
+
+.container{
+    margin-top: 20px;
 }
