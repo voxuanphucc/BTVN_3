@@ -35,32 +35,32 @@ header h1{
     flex: 1;
 
 }
-.sidebar{
-    color: white;
-    margin-left: 50px;
-    margin-top: 5px;
-    background-color: #9D6F68;
-    width: 204px;
-    height: 420px;
-   
-}
+
 .fix{
     display: flex;
     width: 800px;     
 }
 
 
+.sidebar{
+    color: white;
+    margin-left: 50px;
+    margin-top: 5px;
+    background-color: #9D6F68;
+    width: 30%;
+    height: 420px;
+   
+}
+
+
+
 .fix .content{
     margin-top: 10px;
     margin-left: 10px;
-    width: 80%;
-       
-}
-
-.content{
+    width: 70%;
     height: 18px;
     line-height: 18px;
-    
+       
 }
 
 .content b{
