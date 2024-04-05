@@ -16,10 +16,11 @@ header span{
     color: purple;
 }
 header h1{
-
+    
     color: white;
     padding: 10px;
 }
+
 .menu{
     color: white;
     display: flex;
