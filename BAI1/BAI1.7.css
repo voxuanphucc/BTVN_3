@@ -1,4 +1,4 @@
-body, *{
+budy,*{
     margin: 0;
     padding: 0;
 }
@@ -7,46 +7,49 @@ body, *{
     display: flex;
     width: 100%;
 }
+
 .menu .item{
-    background-color: blue;
     width: 25%;
-    height: 40px;
-    line-height: 40px;
-    border-left: 1px solid white;
+    background-color: blue;
     color: white;
-    position: relative;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid white;
     text-align: center;
+    position: relative;
 }
 
 .menu .item:first-child{
     border-left: none;
 }
 
-.menu2 .item2{
-    background-color: blue;
-    border-top: 1px solid white;
-    width: 100%;
-    text-align: center;
-}
 .menu .item:hover{
     background-color: red;
 }
 
+.menu2 .item2{
+    background-color: blue;
+    text-align: center;
+    border-top: 1px solid white;
+    width: 100%;
+    
+}
+
 .menu .item:hover .item2{
     background-color: red;
-}
-
-.item .menu2{
-    display: none;
-}
-
- .menu .item:hover .menu2{
-   display: flex;
     
- }
- .menu .menu2{
+}
+
+.menu .menu2{
+    display: none;
+    
+}
+
+
+.menu .item:hover .menu2{
     width: 300%;
+    display: flex;
     position: absolute;
     left: -100%;
- 
- }
+}
+
