@@ -1,84 +1,59 @@
-body,*{
+body , *{
     margin: 0;
     padding: 0;
 }
-.all{
-    width: 960px;
+
+.container{
     background-color: #FACFCF;
+    width: 960px;
+    margin-left: 50px;
     height: 600px;
 }
 
-header{
-    margin-left:50px;
-    
-}
-header span{
+
+span{
     color: purple;
 }
-header h1{
-    
+h1{
     color: white;
-    padding: 10px;
 }
-
 .menu{
-    color: white;
+    margin-top: 10px;
     display: flex;
+    width: 800px;
+    
+}
+.menu .item{
+    width: 100%;
     background-color: #420000;
+    color: white;
     height: 30px;
     line-height: 30px;
-    width: 90%;
-    margin-top: -17px;
 }
-
-.menu .contact{
-    flex: 1;
-
-}
-
-.fix{
+.cha{
     display: flex;
-    width: 800px;     
+    width: 100%;
+
 }
 
-
-.sidebar{
-    color: white;
-    margin-left: 50px;
-    margin-top: 5px;
-    background-color: #9D6F68;
+ .cha .sidebar{
     width: 30%;
-    height: 420px;
-   
+    background-color: #9D6F68;
+    height: 390px;
+    line-height: 40px;
+    color:white;
+    margin-top: 5px;
 }
 
-
-
-.fix .content{
-    margin-top: 10px;
+.cha .content{
     margin-left: 10px;
-    width: 70%;
-    height: 18px;
-    line-height: 18px;
-       
-}
-
-.content b{
-    height: 26px;
-    line-height: 26px;
-}
-
-.footer{
-    text-align: center;
-    margin-top: 40px;
-    color: white;
-}
-
-.left{
-    height: 43px;
-    line-height: 43px;
-}
-
-.container{
+    
     margin-top: 20px;
+    width: 70%;
+    
 }
+.m{
+    height: 500px;
+    line-height: 19px;
+}
+
